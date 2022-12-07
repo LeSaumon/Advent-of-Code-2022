@@ -21,8 +21,8 @@ Par exemple, supposons que les Elfes finissent d'écrire les Calories de leurs a
 5000
 6000
 
-7000 
-8000 
+7000
+8000
 9000
 
 10000
@@ -45,4 +45,3 @@ Au cas où les lutins auraient faim et auraient besoin d'un en-cas supplémentai
 Trouvez le lutin qui transporte le plus de calories. Combien de calories totales ce lutin transporte-t-il ?
 
 ### Answer
-L'Elfe avec le plus de calorie est Elf-266 avec un total de 69281
