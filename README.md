@@ -12,10 +12,19 @@ Chaque lutin sépare son propre inventaire de celui du lutin précédent (s'il y
 Par exemple, supposons que les Elfes finissent d'écrire les Calories de leurs articles et se retrouvent avec la liste suivante :
 ```
 [
-1000 2000 3000
+1000
+2000
+3000
+
 4000
-5000 6000
-7000 8000 9000
+
+5000
+6000
+
+7000 
+8000 
+9000
+
 10000
 ]
 ```
