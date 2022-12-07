@@ -21,5 +21,8 @@ with open(ROOT_DIR + '/inputs/day_1.txt') as file:
 
         else:
             result[f"Elf-{elf}"]["values"].append(int(line))
-    # Getting the elve with the higher calories values
-    calories = max(elf["sum"] for elf in result.values())
+
+    with open(ROOT_DIR + '/outputs/day_1-1.txt', "w") as output_file:
+        # Getting the elve with the higher calories values
+        calories = max(elf["sum"] for elf in result.values())
+        output_file.write(str(calories))
