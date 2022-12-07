@@ -10,6 +10,7 @@ qu'ils ont apportés avec eux, un article par ligne.
 Chaque lutin sépare son propre inventaire de celui du lutin précédent (s'il y en a un) par une ligne blanche.
 
 Par exemple, supposons que les Elfes finissent d'écrire les Calories de leurs articles et se retrouvent avec la liste suivante :
+```
 [
 1000 2000 3000
 4000
@@ -17,6 +18,8 @@ Par exemple, supposons que les Elfes finissent d'écrire les Calories de leurs a
 7000 8000 9000
 10000
 ]
+```
+
 
 Cette liste représente les Calories de la nourriture transportée par cinq Elfes :
 
