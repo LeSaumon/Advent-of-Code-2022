@@ -69,7 +69,4 @@ with open(ROOT_DIR + '/inputs/day_3.txt') as file:
         answer.append(list(set([points[container_2[container_2.find(item)]] for item in container_1 if container_2.find(item) != -1])))
 
     with open(ROOT_DIR + '/outputs/day_3-1.txt', "w") as solution:
-        solution.write(str(sum(answer)))
-
-
-
+        solution.write(str(sum([sum(result) for result in answer])))
